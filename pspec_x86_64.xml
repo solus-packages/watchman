@@ -1,0 +1,81 @@
+<PISI>
+    <Source>
+        <Name>watchman</Name>
+        <Homepage>https://facebook.github.io/watchman</Homepage>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>Apache-2.0</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Watches files and records, or triggers actions, when they change</Summary>
+        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can
+also trigger actions (such as rebuilding assets) when matching files change
+
+* Watchman can recursively watch one or more directory trees (we call them
+roots)
+* Watchman does not follow symlinks. It knows they exist, but they show up
+the same as any other file in its reporting
+* Watchman waits for a root to settle down before it will start to trigger
+notifications or command execution
+* Watchman is conservative, preferring to err on the side of caution; it
+considers files to be freshly changed when you start to watch them or when
+it is unsure
+* You can query a root for file changes since you last checked, or the
+current state of the tree
+* You can subscribe to file changes that occur in a root
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>watchman</Name>
+        <Summary xml:lang="en">Watches files and records, or triggers actions, when they change</Summary>
+        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can
+also trigger actions (such as rebuilding assets) when matching files change
+
+* Watchman can recursively watch one or more directory trees (we call them
+roots)
+* Watchman does not follow symlinks. It knows they exist, but they show up
+the same as any other file in its reporting
+* Watchman waits for a root to settle down before it will start to trigger
+notifications or command execution
+* Watchman is conservative, preferring to err on the side of caution; it
+considers files to be freshly changed when you start to watch them or when
+it is unsure
+* You can query a root for file changes since you last checked, or the
+current state of the tree
+* You can subscribe to file changes that occur in a root
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.3.0-py3.5.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.3.0-py3.5.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.3.0-py3.5.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.3.0-py3.5.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.3.0-py3.5.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/capabilities.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/compat.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/encoding.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/pybser.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/bser.cpython-35m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/capabilities.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/compat.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/encoding.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/pybser.py</Path>
+            <Path fileType="library">/usr/lib64/tmpfiles.d/watchman.conf</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-06-08</Date>
+            <Version>4.7.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>

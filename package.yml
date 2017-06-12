@@ -1,0 +1,36 @@
+name       : watchman
+version    : 4.7.0
+release    : 1
+source     :
+    - https://github.com/facebook/watchman/archive/v4.7.0.tar.gz : 77c7174c59d6be5e17382e414db4907a298ca187747c7fcb2ceb44da3962c6bf
+license    : Apache-2.0
+component  : system.utils
+homepage   : https://facebook.github.io/watchman
+summary    : Watches files and records, or triggers actions, when they change
+description: |
+    Watchman exists to watch files and record when they actually change. It can
+    also trigger actions (such as rebuilding assets) when matching files change
+
+    * Watchman can recursively watch one or more directory trees (we call them
+    roots)
+    * Watchman does not follow symlinks. It knows they exist, but they show up
+    the same as any other file in its reporting
+    * Watchman waits for a root to settle down before it will start to trigger
+    notifications or command execution
+    * Watchman is conservative, preferring to err on the side of caution; it
+    considers files to be freshly changed when you start to watch them or when
+    it is unsure
+    * You can query a root for file changes since you last checked, or the
+    current state of the tree
+    * You can subscribe to file changes that occur in a root
+builddeps  :
+    - pkgconfig(python3)
+setup      : |
+    %autogen --with-python=/usr/bin/python3 \
+             --enable-statedir=/run/watchman
+build      : |
+    %make
+install    : |
+    %make_install
+    rm -rfv $installdir/run
+    install -Dm 644 $pkgfiles/watchman.tmpfiles $installdir%libdir%/tmpfiles.d/watchman.conf
