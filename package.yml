@@ -1,6 +1,6 @@
 name       : watchman
 version    : 4.9.0
-release    : 2
+release    : 3
 source     :
     - https://github.com/facebook/watchman/archive/v4.9.0.tar.gz : 1f6402dc70b1d056fffc3748f2fdcecff730d8843bb6936de395b3443ce05322
 license    : Apache-2.0

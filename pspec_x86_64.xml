@@ -3,8 +3,8 @@
         <Name>watchman</Name>
         <Homepage>https://facebook.github.io/watchman</Homepage>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>system.utils</PartOf>
@@ -49,35 +49,35 @@ current state of the tree
         <PartOf>system.utils</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.4.0-py3.5.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.4.0-py3.5.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.4.0-py3.5.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.4.0-py3.5.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman-1.4.0-py3.5.egg-info/zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/__init__.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/capabilities.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/compat.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/encoding.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/load.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/__pycache__/pybser.cpython-35.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/bser.cpython-35m-x86_64-linux-gnu.so</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/capabilities.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/compat.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/encoding.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/load.py</Path>
-            <Path fileType="library">/usr/lib/python3.5/site-packages/pywatchman/pybser.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/capabilities.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/compat.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/encoding.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/load.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/pybser.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/bser.cpython-36m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/capabilities.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/compat.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/encoding.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/load.py</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/pybser.py</Path>
             <Path fileType="library">/usr/lib64/tmpfiles.d/watchman.conf</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-08-17</Date>
+        <Update release="3">
+            <Date>2018-01-31</Date>
             <Version>4.9.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
