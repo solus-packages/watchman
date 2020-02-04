@@ -3,8 +3,8 @@
         <Name>watchman</Name>
         <Homepage>https://facebook.github.io/watchman</Homepage>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>system.utils</PartOf>
@@ -25,7 +25,7 @@ it is unsure
 current state of the tree
 * You can subscribe to file changes that occur in a root
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>watchman</Name>
@@ -48,36 +48,38 @@ current state of the tree
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman-1.4.0-py3.6.egg-info/zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/capabilities.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/compat.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/encoding.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/load.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/__pycache__/pybser.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/bser.cpython-36m-x86_64-linux-gnu.so</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/capabilities.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/compat.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/encoding.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/load.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/pywatchman/pybser.py</Path>
+            <Path fileType="executable">/usr/bin/watchman</Path>
+            <Path fileType="executable">/usr/bin/watchman-make</Path>
+            <Path fileType="executable">/usr/bin/watchman-wait</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman-1.4.0-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman-1.4.0-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman-1.4.0-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman-1.4.0-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman-1.4.0-py3.7.egg-info/zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/capabilities.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/compat.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/encoding.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/load.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/__pycache__/pybser.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/bser.cpython-37m-x86_64-linux-gnu.so</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/capabilities.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/compat.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/encoding.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/load.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/pywatchman/pybser.py</Path>
             <Path fileType="library">/usr/lib64/tmpfiles.d/watchman.conf</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="doc">/usr/share/doc/watchman-4.9.0/README.markdown</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-01-31</Date>
+        <Update release="4">
+            <Date>2020-01-27</Date>
             <Version>4.9.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
