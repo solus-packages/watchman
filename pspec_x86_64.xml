@@ -3,48 +3,20 @@
         <Name>watchman</Name>
         <Homepage>https://facebook.github.io/watchman</Homepage>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>system.utils</PartOf>
         <Summary xml:lang="en">Watches files and records, or triggers actions, when they change</Summary>
-        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can
-also trigger actions (such as rebuilding assets) when matching files change
-
-* Watchman can recursively watch one or more directory trees (we call them
-roots)
-* Watchman does not follow symlinks. It knows they exist, but they show up
-the same as any other file in its reporting
-* Watchman waits for a root to settle down before it will start to trigger
-notifications or command execution
-* Watchman is conservative, preferring to err on the side of caution; it
-considers files to be freshly changed when you start to watch them or when
-it is unsure
-* You can query a root for file changes since you last checked, or the
-current state of the tree
-* You can subscribe to file changes that occur in a root
+        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can also trigger actions (such as rebuilding assets) when matching file changes.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>watchman</Name>
         <Summary xml:lang="en">Watches files and records, or triggers actions, when they change</Summary>
-        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can
-also trigger actions (such as rebuilding assets) when matching files change
-
-* Watchman can recursively watch one or more directory trees (we call them
-roots)
-* Watchman does not follow symlinks. It knows they exist, but they show up
-the same as any other file in its reporting
-* Watchman waits for a root to settle down before it will start to trigger
-notifications or command execution
-* Watchman is conservative, preferring to err on the side of caution; it
-considers files to be freshly changed when you start to watch them or when
-it is unsure
-* You can query a root for file changes since you last checked, or the
-current state of the tree
-* You can subscribe to file changes that occur in a root
+        <Description xml:lang="en">Watchman exists to watch files and record when they actually change. It can also trigger actions (such as rebuilding assets) when matching file changes.
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
@@ -74,12 +46,12 @@ current state of the tree
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2020-01-27</Date>
+        <Update release="5">
+            <Date>2020-06-15</Date>
             <Version>4.9.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
